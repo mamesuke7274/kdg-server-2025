@@ -3,5 +3,5 @@ from .import views
 
 
 urlpatterns = [
-    path('book/',views.ListBookView.as_view()),
+    path('',views.ListBookView.as_view()),
 ]
